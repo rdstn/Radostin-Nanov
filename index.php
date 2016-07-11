@@ -1,12 +1,3 @@
-<?php
-/**
- * Template Name: Template Working
- *
- * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
- */
-?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
 
