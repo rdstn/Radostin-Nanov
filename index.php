@@ -1,0 +1,234 @@
+<?php
+/**
+ * Template Name: Template Working
+ *
+ * @package WordPress
+ * @subpackage Twenty_Sixteen
+ * @since Twenty Sixteen 1.0
+ */
+?>
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="robots" content="index,follow" />
+	<meta name="description" content="This is a website created to show off the things created by me - a writer and software designer, among other tings." />
+    <meta name="keywords" content="Radostin, Nanov, rnmefecit, me fecit, design, game design, web design, writing, creative writing, fencing" />
+	<meta name="author" content="Radostin Nanov" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <title>Radostin Nanov</title>
+    <script type="text/javascript">
+        oldieishere=false;
+        ieishere=false;
+    </script>
+    <!--[if IE]>
+        <script type="text/javascript">
+            ieishere=true;
+        </script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script type="text/javascript">
+            oldieishere=true;
+        </script>
+
+    <![endif]-->
+    <!-- Using SASS & COMPASS -->
+	<link rel="stylesheet" type="text/css" href="Radostin-Nanov/assets/style.css" media="screen" /> 
+
+
+
+</head>
+
+<body>
+<!--[if lt IE 7]>
+    <div id="content" style="margin-top:100px; text-align: center;">
+        <h2>AHOY THERE!</h2>
+        <p>It looks like you have stumbled across my website on a non compatible browser. Get something newer! I suggest <a href="http://www.mozilla.org/en-US/firefox">Firefox</a> or <a href="https://www.google.com/intl/en/chrome/browser/">Chome</a> Then revisit my site so you can view it as intended.<br> Otherwise just contact me at <a href="mailto:hello@madebydaryl.co.uk">:radostinnanov@gmail.com</a>.</p>
+    </div>
+<![endif]-->
+
+    <header id="header">
+	<h1>Radostin Nanov<br><span>Developer. Writer. Fencer.</span></h1>
+    </header>
+
+    <div id="contentContainer">
+        <section id="work">
+            <h2 class="grey-large">
+                What have I done?
+            </h2>
+            
+            <div id="workPreview" class="animateWidth" style="margin: 0 auto;">
+            	<div class="workItem" style="width:600px; height:310px; background-image:url('Radostin-Nanov/assets/images/multi_player.png');">
+                    <div class="workItemTable">
+			<div class="mask">
+			</div>
+                        <div class="info">
+                            <h3>Don't Crash</h3>
+                            <p>A small game which was built as a team effort during my studies. Eulogizes the hard work of air traffic controllers. Java/Python.</p>
+                        </div>
+                    </div>
+                </div>
+            	
+                <div class="workItem" style="width:360px; height:341px; background-image:url('Radostin-Nanov/assets/images/authoring_screenshot.png');">
+                    <div class="workItemTable">
+                        <div class="info">
+                            <h3>Interactive Narratives</h3>
+                            <p>The project I did for my MEng. It's all about teaching computers to tell stories. Check the paper out!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workItem" style="width:360px; height:341px; background-image:url('Radostin-Nanov/assets/images/screemcap3.png');">
+                    <div class="workItemTable">
+                        <div class="info">
+                            <h3><a href="http://globalgamejam.org/2016/games/stockpile" target="_blank">Stockpile</a></h3>
+                            <p>A game developed for the Global Game Jam in January 2016.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workItem" style="width:360px; height:233px;  background-image:url('Radostin-Nanov/assets/images/radcliffe.jpg');">
+                    <div class="workItemTable">
+                        <div class="mask">
+                            <div class="nerv" title="Developed for HCA"></div>
+                        </div>
+                        <div class="info">
+                            <h3><a href="http://redlist.heritagecrafts.org.uk/wiki/doku.php" target="_blank">The Radcliffe Red List</a></h3>
+                            <p>A dokuwiki-driven wiki for the Heritage Crafts Association in the UK.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workItem" style="width:175px; height:341px; background-image:url('Radostin-Nanov/assets/images/cover.jpg');">
+                    <div class="workItemTable">
+                        <div class="info">
+                            <h3><a href="https://www.goodreads.com/book/show/19444002" target="_blank">Songs of the Void</a></h3>
+                            <p>A series of fantasy novels I have been working on. In Bulgarian, alas - but shoot me an email for excerpts in English.</p>
+                        </div>
+                    </div>
+                </div>
+		</div>
+
+
+        </section>
+
+	<section id="work">
+	<h2 class="grey-large">
+                Other interests of note
+        </h2>
+
+	<div id="workPreview" class="animateWidth" style="margin: 0 auto;">
+            	<div class="workItem" style="width:360px; height:341px; background-image:url('Radostin-Nanov/assets/images/mask.jpg');">
+                    <div class="workItemTable">
+                        <div class="info">
+                            <h3>Fencing</h3>
+                            <p>I am volunteering as a martial arts instructor at the York Free Fencers Guild. Been doing HEMA for about 6 years now.</p>
+                        </div>
+                    </div>
+                </div>
+
+            	<div class="workItem" style="width:360px; height:341px; background-image:url('Radostin-Nanov/assets/images/d20.jpg');">
+                    <div class="workItemTable">
+                        <div class="info">
+                            <h3><a href="https://drive.google.com/folderview?id=0B5PJUSg7T1EKa3FheC1NWEp0Slk&usp=sharing" target="_blank">On the tabletop</a></h3>
+                            <p>I'm an avid roleplaying gamer. I've run and played in many a campaign. Have a look at my currently active fantasy setting.</p>
+                        </div>
+                    </div>
+                </div>
+
+            	<div class="workItem" style="width:360px; height:341px; background-image:url('Radostin-Nanov/assets/images/referee.jpg');">
+                    <div class="workItemTable">
+                        <div class="info">
+                            <h3>Event Organization</h3>
+                            <p>I've organized tournaments and fairs, obtained funding, drafter plans and even given lectures.</p>
+                        </div>
+                    </div>
+                </div>
+		</div>
+	</section>
+
+        <section>
+            <div id="about">
+                <div class="col left">
+                    <img alt="images" src="Radostin-Nanov/assets/images/myself.jpg" />
+                </div>
+                <div class="col right">
+                    <h2>
+                        Salutations!<br>
+                        Radostin Nanov here.
+                    </h2>
+                    <p>
+                        I am a software designer, fencer and writer, currently based in York, UK, but made in Bulgaria. Beside everything else you might have seen up this page, I like the outdoors, gaming and cooking.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="contactWrapper">
+                <div id="contact">
+                    <article>
+                        <div class="article artc1">
+                            <h2>Get in touch</h2>
+                            <p>
+                                You like what you see and have an idea about a project? Or just have a query?
+                                Shoot me an email and we'll see how it goes.
+                            </p>
+
+                            <h3>Email</h3>
+                            <p><a href="mailto:radostinnanov@gmail.com">radostinnanov@gmail.com</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article artc2">
+                            <h2>Networks</h2>
+                            <p>Feel like following me on a social web? Here you go.</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/radostin.nanov">Facebook</a></li>
+                                <li><a href="    https://uk.linkedin.com/in/radostin-nanov-646929124">Linked in</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+        </section>
+        <div class="footer">RN me fecit.<br>Powered by Wordpress and hot chocolate.</div>
+	</div>
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        var pluginUrl =
+                'http://www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setAccount', 'UA-39761892-1']);
+        _gaq.push(['_setDomainName', 'madebydaryl.co.uk']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script type="text/javascript" src="Radostin-Nanov/assets/js/masonry.min.js"></script>
+    <script type="text/javascript" src="Radostin-Nanov/assets/js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="Radostin-Nanov/assets/js/library.js"></script>
+    <script type="text/javascript" src="Radostin-Nanov/assets/js/main.js"></script>
+
+</body>
+</html>
